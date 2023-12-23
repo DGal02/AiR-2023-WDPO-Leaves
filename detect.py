@@ -24,7 +24,7 @@ def detect(img_path: str) -> Dict[str, int]:
     img = cv2.imread(img_path, cv2.IMREAD_COLOR)
     model = YOLO('best.pt')
     # results = model.predict(img, conf=0.50, iou=0.4)
-    results = model.predict(img, conf=0.3)
+    results = model.predict(img, conf=0.45)
     names = model.names
     leavesDetected = {}
     for k, v in names.items():

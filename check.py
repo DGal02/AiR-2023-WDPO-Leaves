@@ -24,6 +24,7 @@ def main():
                     or file.is_relative_to(base_path / 'sample_data')
                     or file.is_relative_to(base_path / 'runs')
                     or file.is_relative_to(base_path / '.idea')
+                    or file.is_relative_to(base_path / '.git')
                     or file.is_relative_to(base_path / 'datasets1')
                     or file.is_relative_to(base_path / 'datasets')):
                 continue
