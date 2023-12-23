@@ -1,0 +1,6 @@
+ultralytics==8.0.228
+click==8.1.7
+numpy==1.26.2
+opencv-python-headless==4.8.1.78
+scikit-image==0.22.0
+tqdm==4.66.1
